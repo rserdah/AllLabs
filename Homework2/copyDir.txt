@@ -1,0 +1,7 @@
+ls -l . | grep '^[^d]' | awk 'NF>3 {print "cp " $NF " "  $NF"_copy"}' | sh
+ls -l . | grep '(.txt_copy)$' | awk 'NF>3 {print "mv " $NF " " "./txtfiles"}' | sh
+ls -l . | grep '(.pdf_copy)$' | awk 'NF>3 {print "mv " $NF " " "./pdffiles"}' | sh
+ls -p --sort=time | grep -v /
+tar -cf txtfiles.tar txtfiles
+tar -cf pdffiles.tar pdffiles
+tar -cf copiedfiles.tar txtfiles.tar pdffiles.tar
