@@ -21,4 +21,4 @@ Execute getMostFreqChar.c with:
 ./getMostFreqChar test.txt
 
 or with:
-./getMostFreqChar <textFileName>
+./getMostFreqChar [textFileName]
