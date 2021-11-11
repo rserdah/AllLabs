@@ -1,20 +1,24 @@
 #README
 
-Execute .c with:
-gcc -o .c
+Compile addressOfArray.c with:
+gcc -o addressOfArray addressOfArray.c
+
+Execute addressOfArray.c with:
+./addressOfArray
 
 
-Execute .c with:
-gcc -o .c
+Compile addressOfScalar.c with:
+gcc -o addressOfScalar addressOfScalar.c
+
+Execute addressOfScalar.c with:
+./addressOfScalar
 
 
-Execute .c with:
-gcc -o .c
+Compile getMostFreqChar.c with:
+gcc -o getMostFreqChar getMostFreqChar.c
 
+Execute getMostFreqChar.c with:
+./getMostFreqChar test.txt
 
-Execute .c with:
-gcc -o .c
-
-
-Execute .c with:
-gcc -o .c
+or with:
+./getMostFreqChar <textFileName>
