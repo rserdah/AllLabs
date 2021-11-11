@@ -1,20 +1,16 @@
 #README
 
-Execute .sh with:
-sh .sh
+Execute calc.sh with:
+sh calc.sh
 
-Execute .sh with:
-sh .sh
+Execute countStatements_a.sh with:
+sh countStatements_a.sh
 
-Execute .sh with:
-sh .sh
+Execute countStatements_b.sh with:
+sh countStatements_b.sh
 
-Execute .sh with:
-sh .sh
+Execute helpme.sh with:
+sh helpme.sh
 
-Execute .sh with:
-sh .sh
-
-Execute .sh with:
-sh .sh
-
+Execute phoneBookUtil.sh with:
+sh phoneBookUtil.sh
